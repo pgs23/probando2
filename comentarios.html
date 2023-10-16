@@ -39,24 +39,37 @@
     </header>
     <div>
       <center>
-        <h2>Dejanos tu comentario:
-          <form action="/my-handling-form-page" method="post">
-            <ul>
-              <li>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Correo electrónico:</label>
-                <input type="email" id="mail" name="user_mail"/>
-              </li>
-              <li>
-                <label for="msg">Mensaje:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-            </ul>
-          </form>
-          <form action=""></form>
+        <h2 aĺign="center">Dejanos tu comentario:
+          <form action=servidor-ejemplo.com">
+            <fieldset>
+              <legend>Contacto</legend>
+              <div class="form-control">
+                <label for="name">Nombre</label>
+                <input type="name" id="name" placeholder="Introduce tu nombre" required />
+              </div>
+                    <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Introduce tu Email"
+                  required
+                />
+              </div>
+      
+              <div class="form-control">
+                <label for="message">Mensaje</label>
+                <textarea
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Introduce tu mensaje"
+                  required
+                ></textarea>
+              </div>
+              <input type="submit" value="Enviar" class="submit-btn" />
+            </fieldset>
+      </form>
         </h2>
       </center>
       </div>
