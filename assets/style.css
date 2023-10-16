@@ -16,12 +16,15 @@ main{
 	height: 40vh;
 	size: 3px;
 	border: solid blue;
+	
+
 }
 
 footer{
 height: 20vh;
 border: solid brown;
 size: 3px;
+position: relative; align-items: self-end;
 
 }
 
