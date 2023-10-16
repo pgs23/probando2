@@ -14,7 +14,7 @@ header{
 
 main{
 	height: 60svh;
-	border:0px solid blue;
+	border:0px solid rgb(0, 24, 238);
 	
 }
 
@@ -28,13 +28,13 @@ position: relative; align-items: self-end;
 h1 {
    font-family: 'Pacifico', cursive;
    size: 130px;
-   color: rgb(103, 1, 134);
+   color: rgb(20, 119, 106);
 }
 
 h2 {
 	font-family: 'Pacifico', cursive;
 	size: 30px;
-	color: rgb(5, 9, 252);
+	color: rgb(76, 23, 146);
  }
 
  h3{
