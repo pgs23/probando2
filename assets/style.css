@@ -27,6 +27,14 @@ h2 {
 	color: rgb(99, 5, 252);
  }
 
+
+ h4{
+	font-family: 'Courier New', Courier, monospace;
+	size: 25;
+	color: gray;
+
+ }
+
 nav {
 	margin: 40px auto 0;
 	position: relative;
