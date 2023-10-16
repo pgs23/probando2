@@ -1,12 +1,18 @@
-/** {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+
+*,html {
 	margin: 0;
 	padding: 0;
-}**/
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+}
 
 header{
 	background-image: linear-gradient( 359.8deg,  rgba(252,255,222,1) 2.2%, rgb(243, 144, 31) 99.3% );
+}
+
+h1 {
+   font-family: 'Pacifico', cursive;
+   size: 100px;
+   color: blueviolet;
 }
 
 nav {
@@ -71,9 +77,5 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 	left: 310px;
 	background-color: #9b59b6;
 }
-h1 {
-   font-family: 'Pacifico', cursive;
-   size: 100px;
-   color: blueviolet;
-}
+
 
