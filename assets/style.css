@@ -7,23 +7,20 @@
 
 header{
 
-	height:50vh;
-	size: 3px;
-	border: solid red;
-	background-image: linear-gradient( 359.8deg,  rgba(252,255,222,1) 2.2%, rgb(136, 201, 116) 99.3% );
+	height:35svh;
+	border:1px solid red;
+		background-image: linear-gradient( 359.8deg,  rgba(252,255,222,1) 2.2%, rgb(136, 201, 116) 99.3% );
 }
-main{
-	height: 40vh;
-	size: 3px;
-	border: solid blue;
-	
 
+main{
+	height: 50svh;
+	border:1px solid blue;
+	
 }
 
 footer{
-height: 10vh;
-border: solid brown;
-size: 3px;
+height: 10svh;
+border:1px solid brown;
 position: relative; align-items: self-end;
 
 }
@@ -55,12 +52,12 @@ h2 {
  }
 
 nav {
-	margin: 40px auto 0;
+	margin: 0px auto 0;
 	position: relative;
 	width: 500px;
-	height: 50px;
+	height: 49px;
 	background-color: #34495e;
-	border-radius: 10px;
+	border-radius: 15px;
 	font-size: 0;
 }
 nav a {
