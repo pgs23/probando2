@@ -6,7 +6,6 @@ html {
   padding: 0;
 }
 
-<<<<<<< HEAD
 header{
 
 	height:35svh;
@@ -61,7 +60,6 @@ nav {
 	background-color: #34495e;
 	border-radius: 15px;
 	font-size: 0;
-=======
 body {
   display: flex;
   flex-direction: wrap;
@@ -109,7 +107,6 @@ nav {
   background-color: #34495e;
   border-radius: 10px;
   font-size: 0;
->>>>>>> 80468d8aae5d68405aae986fdb797108bd5aa6cb
 }
 nav a {
   line-height: 50px;
