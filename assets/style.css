@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  display: flex;
+  display: block;
   flex-direction: wrap;
   flex-direction: column;
   position: static ;
