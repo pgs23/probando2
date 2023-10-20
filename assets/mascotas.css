@@ -1,0 +1,42 @@
+header {
+    background-position: center;
+    text-align: center;
+  
+    height: 100%;
+    border: 1px solid red;
+    background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
+}
+
+img{
+    border-radius: 25%;
+   
+}
+
+.menu-vertical {
+  position: fixed;
+  width: 200px;
+  height: 100svh;
+}
+
+.menu-vertical a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.menu-vertical a:hover {
+  background-color: #ccc;
+}
+
+.menu-vertical a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+main {
+    margin-left: 350px;
+    min-height: 100vh;
+    background-color: #ccc ;
+    text-align: center;
+}
