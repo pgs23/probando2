@@ -9,6 +9,7 @@ header {
 
 img{
     border-radius: 25%;
+    position: relative;
    
 }
 
@@ -37,6 +38,22 @@ img{
 main {
     margin-left: 350px;
     min-height: 100vh;
-    background-color: #ccc ;
+    background-color: rgb(217, 246, 223) ;
     text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(108, 233, 92);
+}
+table tr td {
+  width: 10%;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 10px;
 }
