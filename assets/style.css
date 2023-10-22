@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   position: relative ;
   height: 100svh;
+  box-sizing: border-box;
 }
 
 header {
