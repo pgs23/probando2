@@ -1,43 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Unna&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/assets/style.css" />
-    <link rel="stylesheet" href="/assets/banner.css" />
-    <link rel="stylesheet" href="/assets/style.js" />
-    <title>Pet Shop</title>
-  </head>
-  <body>
-    <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Unna&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="stylesheet" href="../assets/banner.css" />
+  <link rel="stylesheet" href="../assets/style.js" />
+  <link rel="stylesheet" href="../assets/form.css">
+  <title>Pet Shop</title>
+</head>
+
+<body>
+  <div>
     <header>
       <center>
-      <h1>Amor Mascotero</h1>
-      <picture>
-        <img src="/media/fotomain.png" alt="Mascotas" width="450" />
-      </picture>
-      <nav>
-        <center>
-          <a href="../index.html">Nosotros</a>
-          <a href="/page/mascotas.html">Mascotas</a>
-          <a href="/page/ubicacion.html">Ubicacion</a>
-          <a href="/page/comentarios.html">Comentarios</a>
-          <div class="animation start-Promos"></div>
-        </center>
-    </nav>
-    </div>
-    </header>
-    <main>
-    <div>
-      <center>
-        <h3 aĺign="center">Dejanos tu comentario:
+        <h1>Amor Mascotero</h1>
+        <picture>
+          <img src="/media/fotomain.png" alt="Mascotas" width="450" />
+        </picture>
+        <nav>
+          <center>
+            <a href="../index.html">Nosotros</a>
+            <a href="/page/mascotas.html">Mascotas</a>
+            <a href="/page/ubicacion.html">Ubicacion</a>
+            <a href="/page/comentarios.html">Comentarios</a>
+            <div class="animation start-Promos"></div>
+          </center>
+        </nav>
+  </div>
+  </header>
+  <main>
+    <center>   
+    <link href="payment-form.css" rel="stylesheet" />
+
+    <form>   
+    <h1>Formulario de Contacto</h1>
+   
+
+    <section>
+      <h3>Información de contacto</h3>
+      <p>
+        <label for="name">
+          <span>Nombre:</span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="text" id="name" name="username" />
+      </p>
+      <p>
+        <label for="mail">
+          <span>Correo electrónico:</span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="email" id="mail" name="usermail" />
+      </p>
+      <p>
+
+    <section>
+      <h3>Información de Pedido</h3>
+      <fieldset>
+        <legend>Mascotas</legend>
+        <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="K" />
+              Perros
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Q" />
+              Gatos
+            </label>
+          </li>
+          <li>
+            <label for="title_3">
+              <input type="radio" id="title_3" name="title" value="J" />
+              Varios
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <p>
+        <label for="clase">
+          <span>Productos</span>
+        </label>
+        <select id="producto" name="">
+          <option value="alimento1">Alimentos Secos </option>
+          <option value="alimento2">Alietnos Humedos</option>
+          <option value="accesorios">Accesorios</option>
+        </select>
+      </p>
+      <p>
+        <label for="number">
+          <span>Cantidad</span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="tel" id="number" name="cardnumber" />
+      </p>
+      <p>
+        <label for="date">
+          <span>Fecha de Pedido:</span>
+          <strong><abbr title="required">*</abbr></strong>
+          <em>el formato dd/mm/aa</em>
+        </label>
+        <input type="date" id="date" name="expiration" />
+      </p>
+    </section>
+
+    <p><button type="submit">Enviar Pedido</button></p>
+  </center>
+</form>
+
+
+
+
+    <!--   <h1>The fieldset element</h1>
+
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+         
+          <input type="checkbox" id="taste_1" name="taste_cherry" value="cherry" />
+          <label for="taste_1">Me gustan las cerezas</label>
+   
+          <input type="checkbox" id="taste_2" name="taste_banana" value="banana" />
+          <label for="taste_2">Me gustan los plátanos</label><br><br>
+          
+          
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+ -->
+
+    <!-- <h3 aĺign="center">Dejanos tu comentario:
           <form action="racing2001c@gmail.com">
             
               <legend>Contacto</legend>  
@@ -56,12 +164,13 @@
         </h3>
       </center>
       </div>
-    </main>
-      <footer>
-        <div align="center">
+    </main> -->
+    <footer>
+      <div align="center">
         <h4>Webmasters: Maria, Liliana, Pablo</h4>
       </div>
     </footer>
-    
-      </body>
-      </html>
+
+</body>
+
+</html>
