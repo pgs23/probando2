@@ -35,141 +35,27 @@
   </div>
   </header>
   <main>
-    <center>   
-    <link href="payment-form.css" rel="stylesheet" />
+    <center>
 
-    <form>   
-    <h1>Formulario de Contacto</h1>
-   
+      <form method="post" action="https://sheetdb.io/api/v1/nu5diyqjgddny" id="PedidosPetShop">
+        <h1>Formulario de Contacto</h1>
 
-    <section>
-      <h3>Información de contacto</h3>
-      <p>
-        <label for="name">
-          <span>Nombre:</span>
-          <strong><abbr title="required">*</abbr></strong>
-        </label>
-        <input type="text" id="name" name="username" />
-      </p>
-      <p>
-        <label for="mail">
-          <span>Correo electrónico:</span>
-          <strong><abbr title="required">*</abbr></strong>
-        </label>
-        <input type="email" id="mail" name="usermail" />
-      </p>
-      <p>
+        <h3>Información de contacto</h3>
+        Nombre: <input name="data[Nombre]"><br>
+        Email: <input name="data[Email]"> <br>
+        Comentario: <input name="data[Comentario]"
+              placeholder="Introduce tu mensaje">
+        </section>
+        <button type="submit">Enviar</button>
+    </center>
+    </form>
 
-    <section>
-      <h3>Información de Pedido</h3>
-      <fieldset>
-        <legend>Mascotas</legend>
-        <ul>
-          <li>
-            <label for="title_1">
-              <input type="radio" id="title_1" name="title" value="K" />
-              Perros
-            </label>
-          </li>
-          <li>
-            <label for="title_2">
-              <input type="radio" id="title_2" name="title" value="Q" />
-              Gatos
-            </label>
-          </li>
-          <li>
-            <label for="title_3">
-              <input type="radio" id="title_3" name="title" value="J" />
-              Varios
-            </label>
-          </li>
-        </ul>
-      </fieldset><br>
-
-      <p>
-        <label for="clase">
-          <span>Productos</span>
-        </label>
-        <select id="producto" name="">
-          <option value="alimento1">Alimentos Secos </option>
-          <option value="alimento2">Alietnos Humedos</option>
-          <option value="accesorios">Accesorios</option>
-        </select>
-      </p><br>
-      <p>
-        <label for="number">
-          <span>Cantidad</span>
-          <strong><abbr title="required">*</abbr></strong>
-        </label>
-        <input type="tel" id="number" name="cardnumber" />
-      </p><br>
-      <p>
-        <label for="date">
-          <span>Fecha de Pedido:</span>
-          <strong><abbr title="required">*</abbr></strong>
-          
-        <input type="date" id="date" name="expiration" />
-      </p>
-    </section>
-
-    <p><button type="submit">Enviar Pedido</button></p>
-  </center>
-</form>
-
-
-
-
-    <!--   <h1>The fieldset element</h1>
-
-      <form action="/action_page.php">
-        <fieldset>
-          <legend>Personalia:</legend>
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname"><br><br>
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-         
-          <input type="checkbox" id="taste_1" name="taste_cherry" value="cherry" />
-          <label for="taste_1">Me gustan las cerezas</label>
-   
-          <input type="checkbox" id="taste_2" name="taste_banana" value="banana" />
-          <label for="taste_2">Me gustan los plátanos</label><br><br>
-          
-          
-          <input type="submit" value="Submit">
-        </fieldset>
-      </form>
-
- -->
-
-    <!-- <h3 aĺign="center">Dejanos tu comentario:
-          <form action="racing2001c@gmail.com">
-            
-              <legend>Contacto</legend>  
-             <div class="form-control">
-                <label for="message">Mensaje</label>
-                <textarea
-                  id="message"
-                  cols="20"
-                  rows="5"
-                  placeholder="Introduce tu mensaje"
-                  required
-                ></textarea>
-              </div>
-              <input type="submit" value="Enviar" class="submit-btn" />
-           </form>
-        </h3>
-      </center>
-      </div>
-    </main> -->
     <footer>
       <div align="center">
         <h4>Webmasters: Maria, Liliana, Pablo</h4>
       </div>
     </footer>
-
+    <script src="../assets/js/form.js"></script>
 </body>
 
 </html>
