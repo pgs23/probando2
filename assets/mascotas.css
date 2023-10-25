@@ -7,9 +7,8 @@ html {
 header {
   background-position: center;
   text-align: center;
-
   height: 100%;
-  border: 1px solid red;
+  border: 0px solid red;
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 }
 
@@ -38,13 +37,13 @@ background-color: #ccc;
 }
 
 .menu-vertical a.active {
-background-color: #04aa6d;
+background-color: #2c6b2cdc;
 color: white;
 }
 main {
   margin-left: 350px;
   min-height: 100vh;
-  background-color: rgb(217, 246, 223) ;
+  background-color: rgb(231, 250, 219) ;
   text-align: center;
 }
 
