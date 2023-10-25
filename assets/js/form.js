@@ -11,5 +11,7 @@ form.addEventListener("submit", e => {
     
     alert('Gracias por tu Mensaje ')
     
+    PedidosPetShop.reset();
+    
   });
 });
